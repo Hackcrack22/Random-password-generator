@@ -35,4 +35,4 @@ else:
 characters = lettre + nombre + caractères_spéciaux
 
 password = ''.join(random.choice(characters) for i in range(x))
-print("Random password is:", password)
+print("Here is your password : ", password)
